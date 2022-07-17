@@ -1,9 +1,14 @@
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
-.testimonials .testimonial-wrap {
+/* .testimonials .testimonial-wrap {
     padding-left: 50px;
+  } */
+  .testimonials .testimonial-wrap {
+    padding-left: 25px;
+    padding-right: 25px;
   }
+  
   .testimonials .testimonials-carousel, .testimonials .testimonials-slider {
     overflow: hidden;
   }
@@ -16,13 +21,13 @@
     position: relative;
     background: #fff;
   }
-  .testimonials .testimonial-item .testimonial-img {
-    /* width: 90px;
+  /* .testimonials .testimonial-item .testimonial-img {
+    width: 90px;
     border-radius: 10px;
     border: 6px solid #fff;
     position: absolute;
-    left: -45px; */
-  }
+    left: -45px;
+  } */
   .testimonials .testimonial-item h3 {
     font-size: 18px;
     font-weight: bold;
@@ -70,6 +75,8 @@
   @media (max-width: 767px) {
     .testimonials .testimonial-wrap {
       padding-left: 0;
+      /* added in line 79 */
+      padding-right: 0;
     }
     .testimonials .testimonials-carousel, .testimonials .testimonials-slider {
       overflow: hidden;
