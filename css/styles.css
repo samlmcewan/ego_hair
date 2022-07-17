@@ -1,3 +1,5 @@
+/* Small devices (Default, Phone, 767px and below) */
+
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -277,3 +279,77 @@ nav .breadcrumb a:hover {
 
 
 /* Hero Homepage  */
+.hero-home {
+    background-image: url("/assets/hero-1.png");
+    background-color: #ffffff;
+    height: 367px; /* You must set a specified height */
+    background-position: 70%; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    position: relative;
+}
+
+.hero-btn {
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Smooch Sans', sans-serif;
+    font-weight: 200;
+    padding: 2rem 1.5rem;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    text-decoration: none;
+    width: 200px;
+}
+
+.hero-btn p {
+    position: absolute;
+    font-size: 1.5rem;
+}
+
+.divider {
+    width:100%;
+}
+
+.hero .divider {
+    height: auto;
+    position: absolute;
+    bottom: 0;
+}
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {
+/*--------------------------------------------------------------
+** Hero
+--------------------------------------------------------------*/
+    .hero-home {
+        height:550px;
+        background-position: 100%;
+    }
+    .hero-btn {
+        padding: 3.5rem 0;
+        width: 250px;
+    }
+    .hero-btn p {
+        font-size: 2rem;
+    }
+}
+
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
+    /*--------------------------------------------------------------
+    ** Hero
+    --------------------------------------------------------------*/
+    .hero-home {
+        height: 678px;
+        background-position-y: 78%;
+    }
+    .hero-btn {
+        padding: 5.5rem 0;
+    }
+}
