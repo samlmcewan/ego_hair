@@ -279,7 +279,6 @@ nav .breadcrumb a:hover {
 ** Hero
 --------------------------------------------------------------*/
 
-
 /* Hero Homepage  */
 .hero-home {
     background-image: url("/assets/hero-1.png");
@@ -320,10 +319,44 @@ nav .breadcrumb a:hover {
     position: absolute;
     bottom: 0;
 }
+/*--------------------------------------------------------------
+** Carousel
+--------------------------------------------------------------*/
+/* 
+#review-carousel .card {
+    border: none;
+}
+
+
+@media (max-width: 767px) {
+    .carousel-inner .carousel-item > div {
+        display: none;
+    }
+    .carousel-inner .carousel-item > div:first-child {
+        display: block;
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start { 
+  transform: translateX(0);
+}
+ */
+
+
+
 
 /* Medium devices (tablets, 768px and up) */
 
 @media (min-width: 768px) {
+
+
     body {
         font-size: 1rem;
     }
@@ -341,6 +374,20 @@ nav .breadcrumb a:hover {
     .hero-btn p {
         font-size: 2rem;
     }
+/*--------------------------------------------------------------
+** Carousel
+--------------------------------------------------------------*/
+ 
+/* .carousel-inner .carousel-item-end.active,
+.carousel-inner .carousel-item-next {
+  transform: translateX(25%);
+}
+
+.carousel-inner .carousel-item-start.active, 
+.carousel-inner .carousel-item-prev {
+  transform: translateX(-25%);
+} */
+
 }
 
 /* Large devices (desktops, 992px and up) */
