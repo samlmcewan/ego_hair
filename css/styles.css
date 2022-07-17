@@ -81,25 +81,8 @@ hr {
 /*--------------------------------------------------------------
 ** Navigation
 --------------------------------------------------------------*/
-/* Top Navigation */
-/* #top-nav {*/
-/*    display: none;*/
-/*}*/
 
-#top-nav .nav-item:first-of-type .nav-link {
-    /*padding-left: 0;*/
-}
-#top-nav .nav-item:last-of-type .nav-link {
-    /*padding-right: 0;*/
-}
-
-#top-nav .current a  {
-    border-bottom: 3px solid var(--linksLight);
-    color: var(--black);
-    padding-bottom: calc(0.5rem - 3px);
-    margin-bottom: 0.5rem;
-}
-
+/* Logo  */
 
 .logo-top {
     height: 160px;
@@ -112,60 +95,12 @@ hr {
     color: var(--beige);
     font-family: 'Smooch Sans', sans-serif;
     letter-spacing: 3px;
-   
 }
-
-
-
-
-
-.search-logo {
-    margin-bottom: 0.5rem;
-}
-/*Search bar */
-.top-search {
-    margin-right: 4.3rem;
-}
-#top-nav form i::before {
-    color: var(--linksLight);
-}
-
-.form-control:focus {
-  box-shadow: none; }
-
-.form-control-underlined {
-  border-width: 0;
-  border-bottom-width: 1px;
-  border-radius: 0;
-  padding-left: 0; }
-
-#topbar .form-control::placeholder {
-  font-size: 0.95rem;
-  color: #212121;
-  font-style: initial; }
-
-.mh-40 {
-  max-height: 40px; }
-
-.search-bar {
-  border-radius: 5px;
-  justify-content: space-between;}
-  
-  .form-control::placeholder {
-    font-size: 0.95rem;
-    color: var(--dark);
-  }
 
 /* Main Navigation */
+
 #main-nav {
     background-color: #000000;
-    /*padding-top: 0;*/
-    /*padding-bottom: 0;*/
-}
-
-#main-nav .nav-link {
-
-    /*white-space: nowrap;*/
 }
 
 #main-nav .nav-item {
@@ -181,10 +116,6 @@ nav a {
 
 nav .breadcrumb a {
     text-decoration: none;
-}
-
-#main-nav .current {
-    /*background-color: var(--sky);*/
 }
 
 #main-nav .current a  {
@@ -207,7 +138,6 @@ nav .breadcrumb a {
     right: 20px;
     top: 74px;
 }
-
 
  .animated-icon {
   width: 30px;
@@ -340,3 +270,10 @@ nav .breadcrumb a:hover {
 .left-nav .side-back .nav-link {
     /*text-indent: -.875rem;*/
 }
+
+/*--------------------------------------------------------------
+** Hero
+--------------------------------------------------------------*/
+
+
+/* Hero Homepage  */
