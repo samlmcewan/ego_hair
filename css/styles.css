@@ -8,8 +8,8 @@ body {
 
 :root{
     
-    --black:  #292f33;
-    --dark: #475660;
+
+    --beige: #fcd4b1;
     --red: #b65f6b;
     
     --light: #f5f5f5;
@@ -102,25 +102,21 @@ hr {
 
 
 .logo-top {
-    height: 118px;
+    height: 160px;
     display: flex;
     align-items: center;
-}
-
-.logo-top {
-    color: #ffffff;
-    font-family: 'Smooch Sans', sans-serif;
     text-decoration: none;
 }
 
-.mob-logo-top {
-    padding-left: 0.75rem;
+.logo-top p {
+    color: var(--beige);
+    font-family: 'Smooch Sans', sans-serif;
+    letter-spacing: 3px;
+   
 }
 
-.nes-logo-top {
-    padding: 0.7rem;
-    padding-right: 0;
-}
+
+
 
 
 .search-logo {
@@ -162,7 +158,7 @@ hr {
 
 /* Main Navigation */
 #main-nav {
-    background-color: var(--black);
+    background-color: #000000;
     /*padding-top: 0;*/
     /*padding-bottom: 0;*/
 }
@@ -192,9 +188,8 @@ nav .breadcrumb a {
 }
 
 #main-nav .current a  {
-    border-bottom: 3px solid var(--linksLight);
-    /*color: var(--dark);*/
-    color: var(--black);
+    border-bottom: 3px solid var(--light);
+    color: #ffffff;
     padding-bottom: calc(0.5rem - 3px);
     margin-bottom: 0.5rem;
 }
@@ -208,6 +203,9 @@ nav .breadcrumb a {
 .navbar-toggler {
     padding: 0.75rem;
     border: none;
+    position: absolute;
+    right: 20px;
+    top: 74px;
 }
 
 
