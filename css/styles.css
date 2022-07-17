@@ -2,6 +2,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    font-size: 15px;
 }
 
 /*--------------------------------------------------------------
@@ -9,8 +10,6 @@ body {
 --------------------------------------------------------------*/
 
 :root{
-    
-
     --beige: #fcd4b1;
     --red: #b65f6b;
     
@@ -79,6 +78,9 @@ hr {
     opacity: 1;
 }
 
+.text-large {
+    font-size: 1.875rem;
+}
 
 /*--------------------------------------------------------------
 ** Navigation
@@ -322,6 +324,9 @@ nav .breadcrumb a:hover {
 /* Medium devices (tablets, 768px and up) */
 
 @media (min-width: 768px) {
+    body {
+        font-size: 1rem;
+    }
 /*--------------------------------------------------------------
 ** Hero
 --------------------------------------------------------------*/
@@ -338,7 +343,6 @@ nav .breadcrumb a:hover {
     }
 }
 
-
 /* Large devices (desktops, 992px and up) */
 
 @media (min-width: 992px) {
@@ -347,9 +351,27 @@ nav .breadcrumb a:hover {
     --------------------------------------------------------------*/
     .hero-home {
         height: 678px;
-        background-position-y: 78%;
+        background-position-y: 90%;
     }
     .hero-btn {
         padding: 5.5rem 0;
     }
 }
+
+/* Extra large devices (large desktops, 1800px and up) */
+@media only screen and (min-width: 1800px) {
+    
+     /*--------------------------------------------------------------
+    ** Hero
+    --------------------------------------------------------------*/
+    .hero-home {
+        height: 834px;
+        background-position-y: 94%;
+    }
+    .hero-btn {
+        padding: 8.5rem 0;
+    }
+    
+    
+}
+        
