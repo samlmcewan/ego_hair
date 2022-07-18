@@ -96,7 +96,8 @@ hr {
 }
 
 .logo-top p {
-    color: var(--beige);
+    /* color: var(--beige); */
+    color: #ffffff;
     font-family: 'Smooch Sans', sans-serif;
     letter-spacing: 3px;
 }
