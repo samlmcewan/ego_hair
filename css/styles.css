@@ -377,6 +377,20 @@ padding: 0;
 /* #gallery-slider .testimonial-wrap {
     padding-left: 25px;
   } */
+
+
+/*--------------------------------------------------------------
+** Clients
+--------------------------------------------------------------*/
+.clients img {
+    max-width: 20%;
+    height: 63px;
+    object-fit: contain;
+}
+.clients img:nth-of-type(1) {
+    width: 10%;
+}
+
 /* Medium devices (tablets, 768px and up) */
 
 @media (min-width: 768px) {
