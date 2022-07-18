@@ -31,7 +31,6 @@ h1 {
 }
 
 h2 {
-    color: var(--dark);
     font-size: 1.75rem;
     font-weight: 700;
     margin-bottom: 0.7rem;
@@ -54,12 +53,10 @@ h3 {
     line-height: calc(1.25rem*1.4);
 }
 
-main p {
-    margin-bottom: 1.4rem;
-}
 
-a { 
-    color: var(--links);
+
+.inner-text a { 
+    color: var(--red);
 }
 .all-arrow a {
     text-decoration: none;
@@ -319,7 +316,19 @@ nav .breadcrumb a:hover {
     position: absolute;
     bottom: 0;
 }
-
+/* Hero Inner  */
+.hero-inner {
+    height: 250px;
+}
+.hero-inner {
+    background-image: url("/assets/hero-1.png");
+    background-color: #ffffff;
+    height: 380px; /* You must set a specified height */
+    background-position: 70%; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    position: relative;
+}
 /*--------------------------------------------------------------
 ** Reviews
 --------------------------------------------------------------*/

@@ -4,4 +4,6 @@ const containerMargin = window.getComputedStyle(container).getPropertyValue('mar
 
 const heroBtn = document.querySelector('.hero-btn');
 
-heroBtn.style.marginRight = containerMargin;
+if(heroBtn !== null) {
+    heroBtn.style.marginRight = containerMargin;
+}
