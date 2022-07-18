@@ -391,6 +391,33 @@ padding: 0;
     width: 10%;
 }
 
+
+/*--------------------------------------------------------------
+** Footer
+--------------------------------------------------------------*/
+.divider-flipped {
+    margin-top: -13px;
+    transform: rotateX(180deg);
+}
+footer {
+    background-color: #000000;
+}
+footer p, footer h3, footer li {
+    color: var(--red);
+    font-family: 'Smooch Sans', sans-serif;
+}
+
+footer h3 {
+    text-transform: uppercase;
+}
+
+footer li {
+    list-style-type: none;
+    padding: 0;
+}
+footer ul {
+    padding: 0;
+}
 /* Medium devices (tablets, 768px and up) */
 
 @media (min-width: 768px) {
