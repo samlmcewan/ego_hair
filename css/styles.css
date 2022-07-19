@@ -398,45 +398,6 @@ padding: 0;
 .clients img:nth-of-type(1) {
     width: 10%;
 }
-/*--------------------------------------------------------------
-** Side Menu
---------------------------------------------------------------*/
-.side-menu {
-    margin-right: 60px;
-    overflow: hidden;
-}
-.side-menu-right {
-    margin-right: 0;
-    margin-left: 60px;
-}
-.side-menu {
-    border-radius: var(--border-radius);
-}
-
-.side-menu .side-title, .side-menu li {
-    background-color: #000000;
-    padding: 1.25rem;
-    margin: 0;
-}
-.side-menu .side-title {
-    padding: 1.25rem 1.25rem 0.625rem 1.25rem;
-    color: white;
-    font-size: 1.375rem;
-    font-weight: 700;
-}
-
-.side-menu li a {
-    font-weight: 500;
-    text-decoration: none;
-}
-.side-menu li {
-    padding: 0.625rem 1.25rem;
-    color: var(--light)
-    
-}
-.side-menu li:last-of-type {
-    padding-bottom: 1.25rem;
-}
 
 
 /*--------------------------------------------------------------
